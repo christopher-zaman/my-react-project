@@ -8,7 +8,7 @@ import './assets/css/main.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/my-react-project">
         <App />
     </BrowserRouter>
 
